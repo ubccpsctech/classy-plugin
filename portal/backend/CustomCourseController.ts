@@ -1,7 +1,7 @@
-import Log from "../../../../common/Log";
-import {CourseController} from "../controllers/CourseController";
-import {IGitHubController} from "../controllers/GitHubController";
-import {Deliverable, Person} from "../Types";
+import Log from "../../../packages/common/Log";
+import {CourseController} from "../../../packages/portal/backend/src/controllers/CourseController";
+import {IGitHubController} from "../../../packages/portal/backend/src/controllers/GitHubController";
+import {Deliverable, Person} from "../../../packages/portal/backend/src/Types";
 
 export class DefaultCourseController extends CourseController {
 
