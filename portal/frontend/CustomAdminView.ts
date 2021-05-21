@@ -1,5 +1,5 @@
-import Log from "../../../packages/common/Log";
-import {AdminTabs, AdminView} from "../../../packages/portal/frontend/src/app/views/AdminView";
+import Log from "../../../../../common/Log";
+import {AdminTabs, AdminView} from "../views/AdminView";
 
 /**
  * Stock Default Admin view
