@@ -4,11 +4,11 @@
  */
 
 import {OnsButtonElement} from "onsenui";
-import Log from "../../../../../common/Log";
-import {Payload, TeamFormationTransport, TeamTransport} from "../../../../../common/types/PortalTypes";
+import Log from "../../../packages/common/Log";
+import {Payload, TeamFormationTransport, TeamTransport} from "../../../packages/common/types/PortalTypes";
 
-import {UI} from "../util/UI";
-import {AbstractStudentView} from "../views/AbstractStudentView";
+import {UI} from "../../../packages/portal/frontend/src/app/util/UI";
+import {AbstractStudentView} from "../../../packages/portal/frontend/src/app/views/AbstractStudentView";
 
 export class DefaultStudentView extends AbstractStudentView {
 
