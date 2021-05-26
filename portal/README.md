@@ -1,6 +1,4 @@
-#
-
-Instructions
+# Instructions
 
 Clone this plugin into the /plugins Classy project in a new directory. The name of the directory will become the name that we reference the Classy plugin by in the Classy .env file.
 
