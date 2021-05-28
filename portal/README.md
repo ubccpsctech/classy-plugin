@@ -1,17 +1,12 @@
-#
+# Classy Plugin Setup
 
-Instructions
+Clone this plugin into the /plugins Classy project in a new directory. The name of the directory will become the name that we reference the Classy plugin by in the Classy .env file.
 
-To use a plugin requires substituting Classy's 'plugin' folder with this plugin repository and enabling the plugin in the .env file. A re-build is required.
+This README assumes that Classy is already cloned on the server filesystem, its .env file has been configured, and that Classy can successfully be built and run on its server host.
 
-This README assumes that Classy is already cloned on the server filesystem, its .env file has been configured, and that Classy can be build and run with Docker.
-If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md]
+If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md] for directions on bootstrapping Classy.
 
-1. Assuming that ubccpsc/classy is already cloned on the filesystem, ie.`cd /opt/classy`.
-2. `ls -lh` will reveal a `plugin` folder, which we will substitute with our own plugin. 
-3. Substitute Classy's `plugin` folder with this plugin repository: `rm -rf ./plugin && git clone https://github.com/ubccpsctech/classy-plugin plugin`.
-4. Determine full-path of plugin folder: `cd plugin && pwd`.
-5. Add full plugin folder path to the Classy .env file: `echo PLUGIN=$(cd plugin && pwd)`
-6. Re-build Docker images: `docker-compose build`
-7. Once build completes, run and test at runtime: `docker-compose up -d`
-
+1. Assuming that ubccpsc/classy is already cloned on the filesystem, enter the Classy plugins directory; ie.`cd /opt/classy/plugins`.
+2. `ls -lh` will reveal a `default` folder. This is the default plugin that Classy uses to offer default functionality.
+3. Clone this `classy-plugin` repository into a folder with the plugin name (ie. cs999): `git clone https://github.com/ubccpsctech/classy-plugin cs999`.
+4. Enable the plugin in the Classy .env file by changing the value of `PLUGIN=default` to `PLIUGIN=cs999`, in the case of the example, or any other given plugin name.
