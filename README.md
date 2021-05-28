@@ -4,7 +4,7 @@ This README assumes that Classy is already cloned on the server filesystem, its 
 
 If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md] for directions on bootstrapping Classy.
 
-## Plugin Setup
+## Plugin Setup & Enabling
 
  - [ ] Fork this repository. You will have full control over your fork where you can store changes to this plugin.
  - [ ] From the command line, enter the `classy/plugins` directory. ie. `cd /opt/classy/plugins`.
@@ -20,11 +20,11 @@ If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/cla
 
 ## Independently Updating Your Plugin in Production
 
-1. ssh into your VM `ssh user@classyvm.students.cs.ubc.ca`
-2. cd into /opt/classy/plugins/cs999Mods
+1. Ssh into your VM `ssh user@classyvm.students.cs.ubc.ca`
+2. Enter your plugin directory ie. `cd /opt/classy/plugins/cs999Mods`
 3. `git pull` to bring in your local changes
-4. cd into the root of the classy project `cd /opt/classy`
-5. run `./helper-scripts/load-plugin.sh`
+4. Enter into the root Classy directory: `cd /opt/classy`
+5. Run script to copy over Docker override and Nginx configuration: `./helper-scripts/load-plugin.sh`
 6. Stop Classy `docker-compose down`
 7. Re-build Classy `docker-compose build`
 8. Start Classy `docker-compose build -d`
