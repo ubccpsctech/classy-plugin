@@ -20,7 +20,7 @@ If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/cla
 
 ## Independently Updating Your Plugin in Production
 
-1. ssh into your VM
+1. ssh into your VM `ssh user@classyvm.students.cs.ubc.ca`
 2. cd into /opt/classy/plugins/cs999Mods
 3. `git pull` to bring in your local changes
 4. cd into the root of the classy project `cd /opt/classy`
