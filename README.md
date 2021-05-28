@@ -4,12 +4,6 @@ This README assumes that Classy is already cloned on the server filesystem, its 
 
 If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md] for directions on bootstrapping Classy.
 
-## Development
-
-- Clone this plugin project into your local classy/plugins directory with your given plugin name. ie. `git clone https://github.com/ubccpsctech/classy-plugin cs999Mods`.
-- Open your IDE and intellisense should recognize the namespaces defined in the `classy/tsconfig.json` file (@frontend, @backend, @common).
-- Modify the nginx.rconf and docker-compose.override.yml files to help support your application logic changes if necessary.
-
 ## Plugin Setup & Enabling
 
  - [ ] Fork this repository. You will have full control over your fork where you can store changes to this plugin.
