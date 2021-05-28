@@ -6,6 +6,6 @@ This README assumes that Classy is already cloned on the server filesystem, its 
 
 If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md] for directions on bootstrapping Classy.
 
- - [] Assuming that ubccpsc/classy is already cloned on the filesystem, enter the Classy plugins directory found in the Classy project: `cd /opt/classy/plugins`.
- - [] Clone this `classy-plugin` repository into a folder with your chosen plugin name (ie. cs999Mods): `git clone https://github.com/ubccpsctech/classy-plugin cs999Mods`.
- - [] Enable the plugin in the Classy .env file by changing the value of `PLUGIN=default` to `PLIUGIN=cs999Mods`, or your given plugin name.
+ - [ ] Assuming that ubccpsc/classy is already cloned on the filesystem, enter the Classy plugins directory found in the Classy project: `cd /opt/classy/plugins`.
+ - [ ] Clone this `classy-plugin` repository into a folder with your chosen plugin name (ie. cs999Mods): `git clone https://github.com/ubccpsctech/classy-plugin cs999Mods`.
+ - [ ] Enable the plugin in the Classy .env file by changing the value of `PLUGIN=default` to `PLIUGIN=cs999Mods`, or your given plugin name.
