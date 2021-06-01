@@ -8,8 +8,8 @@ import Log from "@common/Log";
  *
  * Nothing should be added to this class.
  */
-export default class DefaultCourseRoutes implements IREST {
+export default class CustomCourseRoutes implements IREST {
     public registerRoutes(server: restify.Server) {
-        Log.trace('DefaultCourseRoutes::registerRoutes()');
+        Log.trace('CustomCourseRoutes::registerRoutes()');
     }
 }
