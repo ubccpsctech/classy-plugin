@@ -1,9 +1,10 @@
 import {OnsButtonElement} from "onsenui";
-import Log from "../../../../../common/Log";
-import {Payload, TeamFormationTransport, TeamTransport} from "../../../../../common/types/PortalTypes";
 
-import {UI} from "../util/UI";
-import {AbstractStudentView} from "../views/AbstractStudentView";
+import Log from "@common/Log";
+import {Payload, TeamFormationTransport, TeamTransport} from "@common/types/PortalTypes";
+
+import {UI} from "@frontend/util/UI";
+import {AbstractStudentView} from "@frontend/views/AbstractStudentView";
 
 export class CustomStudentView extends AbstractStudentView {
 
