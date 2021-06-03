@@ -2,7 +2,7 @@
 
 This README assumes that Classy is already cloned on the server filesystem, its .env file has been configured, and that Classy can successfully be built and run on its server host.
 
-If not, please see the (ubccpsc/classy/README.md)[https://github.com/ubccpsc/classy/blob/master/README.md] for directions on bootstrapping Classy.
+If not, please see the [ubccpsc/classy/README.md](https://github.com/ubccpsc/classy/blob/master/README.md) for directions on bootstrapping Classy.
 
 ## Forking, Development, and Production
 
